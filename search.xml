@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>第一台服务器：玩客云折腾记</title>
+    <url>/2021/08/24/my-server-wky/</url>
+    <content><![CDATA[<h2 id="事情的起因"><a href="#事情的起因" class="headerlink" title="事情的起因"></a>事情的起因</h2><p>前段时间在看b站的时候，看到有一款机子，名曰：玩客云，可是评论区里均称之为矿渣。搜索一番后才了解，原来是一台下载机，自带迅雷会员，之前可以利用家里的闲置带宽赚钱，简单说就是挖矿，通上电，连上网躺家里就能赚钱，这谁不喜欢，于是乎大量买入，后来发了矿难，这些原来炒到好几千的机子闲鱼上几十块就可以买到，关键是玩法多，看了恩山、张大妈的文章，我也痛下血本买了一台。</p>
+<p>我买的是<em>绝育老母鸡</em> （这名字绝了🐔），也就是关闭了挖矿功能的，如果不绝育的话就会像之前说的那样，利用你家的带宽当cdn,这谁愿意啊。（后来又后悔了，既然我要刷机还管他绝育不绝育，白白多花十几块。）</p>
+<h2 id="first-step：刷机"><a href="#first-step：刷机" class="headerlink" title="first step：刷机"></a>first step：刷机</h2><p>刷机我就不赘述了，<a href="https://www.bilibili.com/video/BV1Va411A7MJ?from=search&seid=5975901192575404346">参考视频</a>   <a href="https://yangwenqing.com/archives/1604/">刷机固件下载</a></p>
+<p>只不过，这一步可把我给搞坏了，为了节省时间，立即投入刷机，我想着自己diy一个双公头线也未尝不可，毕竟我的动手能力这么强</p>
+<p>ヾ(•ω•`)o</p>
+<p>就在我屏住呼吸，小心翼翼地把那根刚刚焊好，还热乎的线插入笔记本的那一刻，</p>
+<p>biu~    黑屏了！</p>
+<p>重启一下</p>
+<p>didididi(其实我也没分清到底是比比还是滴滴的响)</p>
+<p>黢黑的屏幕像无底的深渊，比比的异响好似轻蔑地嘲笑</p>
+<p>我**又翻车了，</p>
+<p>问题不大，重装系统什么的难不倒我。</p>
+<p>嗯—— o(<em>￣▽￣</em>)o  。。。。。？</p>
+<p>坏了，usb口不识别我U盘了，这下终于没辙了。最后发现是硬盘crash了，80块大洋换了个二手机械盘，欸嘿，又好了！</p>
+<p>只不过主板应该是真烧了，usb口真不能用了，只能用原来那个接无线鼠标的口偶尔凑合一下。</p>
+<p>所以说: <strong>diy有风险，血的教训，</strong>┭┮﹏┭┮</p>
+<h2 id="second-step-："><a href="#second-step-：" class="headerlink" title="second step ："></a>second step ：</h2><p>刷了机之后，插上电源与网线，如果刷了armbian5.67的话灯是不会亮的。</p>
+<p>在路由器那里看看能不能找到那个有线设备，记录一下IP。打开ssh工具，比如putty，连接🆗，虽然是英文，但是很简单，理解上应该问题不大。</p>
+<p><img  src="wky.jpg"  ><span class="image-caption">just like this</span> </p>
+<p>欧啦。</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World|开博第一文</title>
     <url>/2021/08/22/hello-world/</url>
     <content><![CDATA[<h3 id="终于拥有了自己的博客"><a href="#终于拥有了自己的博客" class="headerlink" title="终于拥有了自己的博客"></a>终于拥有了自己的博客</h3><p>其实我很早以前就想着搭建一个自己的博客，但是由于学业紧张，背井离乡（寄宿），我还是搭建了一个😁，只不过没写过文章，所以趁这次空闲机会，我又重新部署好了这个<a href="hexo.io">hexo</a> +<a href="izhaoo.com">zhaoo</a> 的博客。</p>
