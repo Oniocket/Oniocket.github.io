@@ -212,6 +212,37 @@
         
       </section>
       
+        <section class="comments">
+  
+    <div class="btn" id="comments-btn">查看评论</div>
+  
+  
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<div id="gitalk" class="gitalk"></div>
+<script defer src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  window.onload = function () {
+    var gitalk = new Gitalk({
+      clientID: 'cfa71ae54054d40b8299',
+      clientSecret: '1f27a99250a2c2d636f8465c9410f75be7e9ffb4',
+      id: window.location.pathname,
+      repo: 'oniocket-gitalk',
+      owner: 'Oniocket',
+      admin: 'Oniocket'
+    });
+    if ( true ) {
+      $("#comments-btn").on("click", function () {
+        $(this).hide();
+        gitalk.render('gitalk');
+      });
+    } else {
+      gitalk.render('gitalk');
+    }
+  }
+</script>
+
+</section>
+      
     </section>
   </div>
 </article></div>
@@ -337,7 +368,7 @@
       (ga.q = ga.q || []).push(arguments)
     };
     ga.l = +new Date;
-    ga('create', '283792716', 'auto');
+    ga('create', 'G-6SPR6TYDDJ', 'auto');
     ga('send', 'pageview');
   </script>
   <script defer src='https://www.google-analytics.com/analytics.js'></script>

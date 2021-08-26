@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>关于pgp</title>
+    <url>/2021/08/27/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8pgp%E5%8A%A0%E5%AF%86/</url>
+    <content><![CDATA[<h1 id="关于pgp"><a href="#关于pgp" class="headerlink" title="关于pgp"></a>关于pgp</h1><p>对于我这样天天上网的人来说，隐私保护是一个很难回避的话题，你不去主动思考他，没准什么时候什么监视、密码泄露之类的事就找到你的头上来。有一次我妈忘记了的密码，想让我用微信给她发过去，我一听，好家伙，用微信这垃圾玩意传密码，实在是危险之至。我们需要一款加密工具来保护我们的信息安全，我想pgp可以胜任。 </p>
+<h2 id="1-What-is-pgp"><a href="#1-What-is-pgp" class="headerlink" title="1. What is pgp?"></a>1. What is pgp?</h2><blockquote>
+<p><strong>PGP</strong>（英语：Pretty Good Privacy，直译：<strong>优良保密协议</strong>）是一套用于<a href="https://zh.wikipedia.org/wiki/%E8%AE%AF%E6%81%AF">讯息</a>加密、验证的应用程序。</p>
+<p>PGP的主要开发者是<a href="https://zh.wikipedia.org/wiki/%E8%8F%B2%E5%B0%94%C2%B7%E9%BD%90%E9%BB%98%E6%9B%BC">菲尔·齐默曼</a>。齐默曼于1991年将PGP在互联网上免费发布。PGP本身是商业应用程序；<a href="https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6">开源</a>并具有同类功能的工具名为<a href="https://zh.wikipedia.org/wiki/GnuPG">GnuPG</a>（GPG）。PGP及其同类产品均遵守<a href="https://zh.wikipedia.org/wiki/PGP#OpenPGP">OpenPGP</a>数据加解密标准（<a href="https://tools.ietf.org/html/rfc4880">RFC 4880</a>）。      —–wikipedia.org</p>
+</blockquote>
+<p>至于pgp的历史啥的，我就不在这细说了，感兴趣的同学可以去<a href="https://zh.wikipedia.org/wiki/PGP">wiki百科</a>上自行查阅。</p>
+<hr>
+<p>算了，不分123了。😛</p>
+<p>那么，pgp是怎么工作的呢？对于加密部分而言，pgp使用到了非对称加密技术，非对称加密（<strong>Asymmetric cryptography</strong>）又叫公开密钥加密，简单地讲就是一个人拥有**一对 ** 密钥，一个叫公钥（public key）,另一个叫私钥（private key）。公钥是可以散布出去的，而私钥则必须被你自己好好保管，要是泄漏的话，嘿嘿，你和隔壁老王的聊天记录就全曝光了，哈！</p>
+<p>整个加密过程是这样的：小红想和小蓝聊天，于是，小蓝把自己公钥给了小红，小黑也看见了，但是没关系，小红把自己的悄悄话用小蓝的公钥加密(encrypt)之后得到的密文又发给了小蓝，小黑又看见了，but nobody cares.小蓝拿到密文之后，用自己的私钥解密（decrypt）之后就看见了小红给他的话。小黑虽然有公钥与密文，但他也只能干瞪眼，只要没有私钥，除非他家有量子计算机，不然就是解不了密。</p>
+<p>那如果虽然小黑看不到，但是他把密文给改了怎么办？别担心，pgp还有一项功能就是签名（signature），简单地说（啊，打字好累）就是把我发给你的文件上附加一个签名文件，一旦文件被篡改，那么，之后验证时得到的数据就会和签名文件的数据不符，说明文件被篡改了。</p>
+<p><img  src="sign.png"  ><span class="image-caption">如图所示|Wikipedia</span></p>
+<p>各平台pgp软件：</p>
+<ul>
+<li>Windows：<a href="https://www.gpg4win.org/">Gpg4win</a></li>
+<li>macOS：<a href="https://gpgtools.org/">GPG Suite</a></li>
+<li>Android：<a href="https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain&hl=en">OpenKeychain: Easy PGP</a></li>
+<li>iOS：<a href="https://itunes.apple.com/us/app/pgp-everywhere/id1011677987?mt=8">PGP Everywhere</a></li>
+</ul>
+<p>那么pgp到底该怎么用呢？这个，其实，真的很简单了，软件界面也很清晰，我就不一一细说了，不行就谷歌一下~</p>
+<p>参考链接：</p>
+<ul>
+<li><a href="https://dbarobin.com/2019/05/02/privacy-geek-pgp/">隐私极客之 PGP</a></li>
+<li><a href="https://www.goanywhere.com/managed-file-transfer/more/tutorials/how-to-encrypt-files-with-pgp">How to Encrypt Files with Open PGP</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%85%AC%E5%BC%80%E5%AF%86%E9%92%A5%E5%8A%A0%E5%AF%86">公开密钥加密</a></li>
+</ul>
+<hr>
+<p>现在已经是8月底，天气渐凉，又在下雨，所以还是很有秋天的凉意的，这篇文章是为了帮助我的好朋友使用pgp写的，但是好像大幅内容放在了原理上，不知能不能帮到忙，但我感觉如果原理明白了的话软件使用起来应该也会很容易的。</p>
+<p>over！</p>
+]]></content>
+      <tags>
+        <tag>pgp</tag>
+        <tag>加密</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第一台服务器：玩客云折腾记</title>
     <url>/2021/08/24/my-server-wky/</url>
     <content><![CDATA[<h2 id="事情的起因"><a href="#事情的起因" class="headerlink" title="事情的起因"></a>事情的起因</h2><p>前段时间在看b站的时候，看到有一款机子，名曰：玩客云，可是评论区里均称之为矿渣。搜索一番后才了解，原来是一台下载机，自带迅雷会员，之前可以利用家里的闲置带宽赚钱，简单说就是挖矿，通上电，连上网躺家里就能赚钱，这谁不喜欢，于是乎大量买入，后来发了矿难，这些原来炒到好几千的机子闲鱼上几十块就可以买到，关键是玩法多，看了恩山、张大妈的文章，我也痛下血本买了一台。</p>
