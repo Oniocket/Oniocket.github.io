@@ -1,6 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World|开博第一文</title>
+    <url>/2021/08/22/hello-world/</url>
+    <content><![CDATA[<h3 id="终于拥有了自己的博客"><a href="#终于拥有了自己的博客" class="headerlink" title="终于拥有了自己的博客"></a>终于拥有了自己的博客</h3><p>其实我很早以前就想着搭建一个自己的博客，但是由于学业紧张，背井离乡（寄宿），我还是搭建了一个😁，只不过没写过文章，所以趁这次空闲机会，我又重新部署好了这个<a href="hexo.io">hexo</a> +<a href="izhaoo.com">zhaoo</a> 的博客。</p>
+<h3 id="为什么叫“林中小屋”？"><a href="#为什么叫“林中小屋”？" class="headerlink" title="为什么叫“林中小屋”？"></a>为什么叫“林中小屋”？</h3><p>比较喜欢森林</p>
+<p><img  src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"  ><span class="image-caption">比如这个</span></p>
+<p><img  src="https://images.unsplash.com/photo-1496060169243-453fde45943b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=744&q=80"  ><span class="image-caption">this</span></p>
+<blockquote>
+<p>山光悦鸟性，潭影空人心</p>
+</blockquote>
+<p>亲近大自然让我感到十分舒畅，应该是放松的感觉吧？</p>
+<h3 id="今后可能会写的内容："><a href="#今后可能会写的内容：" class="headerlink" title="今后可能会写的内容："></a>今后可能会写的内容：</h3><ul>
+<li>学习，也算是做个笔记</li>
+<li>生活，一些有趣的事</li>
+<li>技术，本人喜欢瞎折腾，所以记录一下还是有必要的</li>
+<li>随笔，就是想到啥就随便写了，就想找个地儿说说想法。</li>
+</ul>
+<p>。。。。。。</p>
+<p>本人Linux也不太懂，网站运维什么的更是小白一只，再加上身为学生，甚是贫穷，所以还没有独立在服务器上搭建的打算，慢慢来吧~</p>
+<p>还有就是希望自己可以坚持写下去。</p>
+<p>还有，以后就会知道了。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一台服务器：玩客云折腾记</title>
+    <url>/2021/08/24/my-server-wky/</url>
+    <content><![CDATA[<h2 id="事情的起因"><a href="#事情的起因" class="headerlink" title="事情的起因"></a>事情的起因</h2><p>前段时间在看b站的时候，看到有一款机子，名曰：玩客云，可是评论区里均称之为矿渣。搜索一番后才了解，原来是一台下载机，自带迅雷会员，之前可以利用家里的闲置带宽赚钱，简单说就是挖矿，通上电，连上网躺家里就能赚钱，这谁不喜欢，于是乎大量买入，后来发了矿难，这些原来炒到好几千的机子闲鱼上几十块就可以买到，关键是玩法多，看了恩山、张大妈的文章，我也痛下血本买了一台。</p>
+<p>我买的是<em>绝育老母鸡</em> （这名字绝了🐔），也就是关闭了挖矿功能的，如果不绝育的话就会像之前说的那样，利用你家的带宽当cdn,这谁愿意啊。（后来又后悔了，既然我要刷机还管他绝育不绝育，白白多花十几块。）</p>
+<h2 id="first-step：刷机"><a href="#first-step：刷机" class="headerlink" title="first step：刷机"></a>first step：刷机</h2><p>刷机我就不赘述了，<a href="https://www.bilibili.com/video/BV1Va411A7MJ?from=search&seid=5975901192575404346">参考视频</a>   <a href="https://yangwenqing.com/archives/1604/">刷机固件下载</a></p>
+<p>只不过，这一步可把我给搞坏了，为了节省时间，立即投入刷机，我想着自己diy一个双公头线也未尝不可，毕竟我的动手能力这么强</p>
+<p>ヾ(•ω•`)o</p>
+<p>就在我屏住呼吸，小心翼翼地把那根刚刚焊好，还热乎的线插入笔记本的那一刻，</p>
+<p>biu~    黑屏了！</p>
+<p>重启一下</p>
+<p>didididi(其实我也没分清到底是比比还是滴滴的响)</p>
+<p>黢黑的屏幕像无底的深渊，比比的异响好似轻蔑地嘲笑</p>
+<p>我**又翻车了，</p>
+<p>问题不大，重装系统什么的难不倒我。</p>
+<p>嗯—— o(<em>￣▽￣</em>)o  。。。。。？</p>
+<p>坏了，usb口不识别我U盘了，这下终于没辙了。最后发现是硬盘crash了，80块大洋换了个二手机械盘，欸嘿，又好了！</p>
+<p>只不过主板应该是真烧了，usb口真不能用了，只能用原来那个接无线鼠标的口偶尔凑合一下。</p>
+<p>所以说: <strong>diy有风险，血的教训，</strong>┭┮﹏┭┮</p>
+<h2 id="second-step-："><a href="#second-step-：" class="headerlink" title="second step ："></a>second step ：</h2><p>刷了机之后，插上电源与网线，如果刷了armbian5.67的话灯是不会亮的。</p>
+<p>在路由器那里看看能不能找到那个有线设备，记录一下IP。打开ssh工具，比如putty，连接🆗，虽然是英文，但是很简单，理解上应该问题不大。</p>
+<p><img  src="wky.jpg"  ><span class="image-caption">just like this</span> </p>
+<p>欧啦。</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何让uwp应用使用代理</title>
+    <url>/2021/08/30/use-clash-on-uwp/</url>
+    <content><![CDATA[<h1 id="如何让uwp应用走代理？"><a href="#如何让uwp应用走代理？" class="headerlink" title="如何让uwp应用走代理？"></a>如何让uwp应用走代理？</h1><h2 id="废话"><a href="#废话" class="headerlink" title="废话"></a>废话</h2><p>随着物质生产水平的提高，人民的生活质量也在稳定的增长，这个生活水平不仅仅是指物质生活，大家吃的饱了，吃的好了，有了洋房住，小汽车开，更有对于高品质精神生活的强烈需求，在Netflix上看看剧，在Spotify上听听音乐，也成了我生活的一部分。暑假里在=我拥有了自己的电脑，预装的是Windows10的系统，所以就有一个自带的应用商店，但是我发现在Microsoft store上下载的软件并不像传统的.exe的应用程序，而是一种<strong>Universal Windows Platform</strong>，简称<strong>UWP</strong> ,在我兴高采烈的下载了之后却无法打开，应用提示网络错误。</p>
+<p>咦？明明开了代理，怎么还是不行？改全局模式。嗯？还是不行。</p>
+<p>根据网上的资料，uwp应用运行于沙盒之中，无法访问本地localhost，所以就算你开了代理也是白搭，人家根本不从里面走，不过，办法还是有的。</p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="使用clash"><a href="#使用clash" class="headerlink" title="使用clash"></a>使用clash</h3><p>如果你使用clash作为代理工具的话，那么这个问题就好解决了。clash提供了一个UWP LOOPBACK 的设置项，这个你可以在General选项里找到，点击之后勾选需要代理的软件然后<strong>save changes</strong> 就可以了。</p>
+<h3 id="其他方案"><a href="#其他方案" class="headerlink" title="其他方案"></a>其他方案</h3><p>鉴于这几种方案我并没有尝试，所以我不能确定他们的可用性。</p>
+<blockquote>
+<p>利用 Windows 10 系统自带的 CheckNetIsolation.exe 工具或者第三方软件 Fiddler 可以为 UWP 应用解除网络隔离。</p>
+<p><img  src="https://s3.ifanr.com/wp-content/uploads/2019/03/SID_name.jpg!720"  ><span class="image-caption">img</span></p>
+<p>打开系统的注册表编辑器，定位路径 <code>HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings</code>，注册表编辑器左侧列出了已安装的应用 SID 值命名的文件夹，右边 DisplayName 项就是应用名称，左边记录目标应用的 SID 值。</p>
+<p>打开 CMD 命令面板，输入如下命令，SID 就是前面获得的 SID 值，命令行窗口提示「完成」，表示已经解除了目标应用的网络隔离。</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">&gt;<span class="module-access"><span class="module"><span class="identifier">CheckNetIsolation</span>.</span></span>exe loopbackexempt -a -p=SID</span><br></pre></td></tr></table></figure>
+
+<p><img  src="https://s3.ifanr.com/wp-content/uploads/2019/03/Fiddler.jpg!720"  ><span class="image-caption">img</span></p>
+<p>使用 Fiddler 软件的话，选择顶部菜单栏的「WinConfig」，在弹出窗口中勾选需要排除网络隔离的应用，最后点击「Save Changes」即可。</p>
+</blockquote>
+<p>转载自<a href="https://www.ifanr.com/app/1189475">https://www.ifanr.com/app/1189475</a></p>
+<p>感觉clash的思路应该是和第二种使用fiddler的方法一样。</p>
+<p>over！</p>
+<p>参考链接：</p>
+<ul>
+<li><a href="https://www.ifanr.com/app/1189475">https://www.ifanr.com/app/1189475</a></li>
+<li><a href="https://g.co/kgs/wPQquc">https://g.co/kgs/wPQquc</a></li>
+<li><a href="https://docs.cfw.lbyczf.com/">clash for windows docs</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>科学上网</tag>
+        <tag>uwp</tag>
+        <tag>clash</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于pgp</title>
     <url>/2021/08/27/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8pgp%E5%8A%A0%E5%AF%86/</url>
     <content><![CDATA[<h1 id="关于pgp"><a href="#关于pgp" class="headerlink" title="关于pgp"></a>关于pgp</h1><p>对于我这样天天上网的人来说，隐私保护是一个很难回避的话题，你不去主动思考他，没准什么时候什么监视、密码泄露之类的事就找到你的头上来。有一次我妈忘记了的密码，想让我用微信给她发过去，我一听，好家伙，用微信这垃圾玩意传密码，实在是危险之至。我们需要一款加密工具来保护我们的信息安全，我想pgp可以胜任。 </p>
@@ -37,56 +122,5 @@
         <tag>pgp</tag>
         <tag>加密</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>第一台服务器：玩客云折腾记</title>
-    <url>/2021/08/24/my-server-wky/</url>
-    <content><![CDATA[<h2 id="事情的起因"><a href="#事情的起因" class="headerlink" title="事情的起因"></a>事情的起因</h2><p>前段时间在看b站的时候，看到有一款机子，名曰：玩客云，可是评论区里均称之为矿渣。搜索一番后才了解，原来是一台下载机，自带迅雷会员，之前可以利用家里的闲置带宽赚钱，简单说就是挖矿，通上电，连上网躺家里就能赚钱，这谁不喜欢，于是乎大量买入，后来发了矿难，这些原来炒到好几千的机子闲鱼上几十块就可以买到，关键是玩法多，看了恩山、张大妈的文章，我也痛下血本买了一台。</p>
-<p>我买的是<em>绝育老母鸡</em> （这名字绝了🐔），也就是关闭了挖矿功能的，如果不绝育的话就会像之前说的那样，利用你家的带宽当cdn,这谁愿意啊。（后来又后悔了，既然我要刷机还管他绝育不绝育，白白多花十几块。）</p>
-<h2 id="first-step：刷机"><a href="#first-step：刷机" class="headerlink" title="first step：刷机"></a>first step：刷机</h2><p>刷机我就不赘述了，<a href="https://www.bilibili.com/video/BV1Va411A7MJ?from=search&seid=5975901192575404346">参考视频</a>   <a href="https://yangwenqing.com/archives/1604/">刷机固件下载</a></p>
-<p>只不过，这一步可把我给搞坏了，为了节省时间，立即投入刷机，我想着自己diy一个双公头线也未尝不可，毕竟我的动手能力这么强</p>
-<p>ヾ(•ω•`)o</p>
-<p>就在我屏住呼吸，小心翼翼地把那根刚刚焊好，还热乎的线插入笔记本的那一刻，</p>
-<p>biu~    黑屏了！</p>
-<p>重启一下</p>
-<p>didididi(其实我也没分清到底是比比还是滴滴的响)</p>
-<p>黢黑的屏幕像无底的深渊，比比的异响好似轻蔑地嘲笑</p>
-<p>我**又翻车了，</p>
-<p>问题不大，重装系统什么的难不倒我。</p>
-<p>嗯—— o(<em>￣▽￣</em>)o  。。。。。？</p>
-<p>坏了，usb口不识别我U盘了，这下终于没辙了。最后发现是硬盘crash了，80块大洋换了个二手机械盘，欸嘿，又好了！</p>
-<p>只不过主板应该是真烧了，usb口真不能用了，只能用原来那个接无线鼠标的口偶尔凑合一下。</p>
-<p>所以说: <strong>diy有风险，血的教训，</strong>┭┮﹏┭┮</p>
-<h2 id="second-step-："><a href="#second-step-：" class="headerlink" title="second step ："></a>second step ：</h2><p>刷了机之后，插上电源与网线，如果刷了armbian5.67的话灯是不会亮的。</p>
-<p>在路由器那里看看能不能找到那个有线设备，记录一下IP。打开ssh工具，比如putty，连接🆗，虽然是英文，但是很简单，理解上应该问题不大。</p>
-<p><img  src="wky.jpg"  ><span class="image-caption">just like this</span> </p>
-<p>欧啦。</p>
-]]></content>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World|开博第一文</title>
-    <url>/2021/08/22/hello-world/</url>
-    <content><![CDATA[<h3 id="终于拥有了自己的博客"><a href="#终于拥有了自己的博客" class="headerlink" title="终于拥有了自己的博客"></a>终于拥有了自己的博客</h3><p>其实我很早以前就想着搭建一个自己的博客，但是由于学业紧张，背井离乡（寄宿），我还是搭建了一个😁，只不过没写过文章，所以趁这次空闲机会，我又重新部署好了这个<a href="hexo.io">hexo</a> +<a href="izhaoo.com">zhaoo</a> 的博客。</p>
-<h3 id="为什么叫“林中小屋”？"><a href="#为什么叫“林中小屋”？" class="headerlink" title="为什么叫“林中小屋”？"></a>为什么叫“林中小屋”？</h3><p>比较喜欢森林</p>
-<p><img  src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"  ><span class="image-caption">比如这个</span></p>
-<p><img  src="https://images.unsplash.com/photo-1496060169243-453fde45943b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=744&q=80"  ><span class="image-caption">this</span></p>
-<blockquote>
-<p>山光悦鸟性，潭影空人心</p>
-</blockquote>
-<p>亲近大自然让我感到十分舒畅，应该是放松的感觉吧？</p>
-<h3 id="今后可能会写的内容："><a href="#今后可能会写的内容：" class="headerlink" title="今后可能会写的内容："></a>今后可能会写的内容：</h3><ul>
-<li>学习，也算是做个笔记</li>
-<li>生活，一些有趣的事</li>
-<li>技术，本人喜欢瞎折腾，所以记录一下还是有必要的</li>
-<li>随笔，就是想到啥就随便写了，就想找个地儿说说想法。</li>
-</ul>
-<p>。。。。。。</p>
-<p>本人Linux也不太懂，网站运维什么的更是小白一只，再加上身为学生，甚是贫穷，所以还没有独立在服务器上搭建的打算，慢慢来吧~</p>
-<p>还有就是希望自己可以坚持写下去。</p>
-<p>还有，以后就会知道了。</p>
-]]></content>
   </entry>
 </search>
