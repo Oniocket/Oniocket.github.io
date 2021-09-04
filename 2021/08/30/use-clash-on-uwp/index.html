@@ -92,7 +92,7 @@
           default: '姑苏城外寒山寺，夜半钟声到客船',
           typing: true,
           api: '',
-          data_contents: '["data","content"]'
+          data_contents: ''
         },
       },
       qrcode: {
@@ -189,7 +189,7 @@
     <div class="head-info">
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>八月 29, 2021</span>
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1200</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1194</span>
     </div>
   </div>
 </section>
@@ -202,12 +202,12 @@
 <h3 id="其他方案"><a href="#其他方案" class="headerlink" title="其他方案"></a>其他方案</h3><p>鉴于这几种方案我并没有尝试，所以我不能确定他们的可用性。</p>
 <blockquote>
 <p>利用 Windows 10 系统自带的 CheckNetIsolation.exe 工具或者第三方软件 Fiddler 可以为 UWP 应用解除网络隔离。</p>
-<p><img    class="lazyload" data-original="https://s3.ifanr.com/wp-content/uploads/2019/03/SID_name.jpg!720" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">img</span></p>
+<p><img   class="lazyload" data-original="https://s3.ifanr.com/wp-content/uploads/2019/03/SID_name.jpg!720" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="img"></p>
 <p>打开系统的注册表编辑器，定位路径 <code>HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings</code>，注册表编辑器左侧列出了已安装的应用 SID 值命名的文件夹，右边 DisplayName 项就是应用名称，左边记录目标应用的 SID 值。</p>
 <p>打开 CMD 命令面板，输入如下命令，SID 就是前面获得的 SID 值，命令行窗口提示「完成」，表示已经解除了目标应用的网络隔离。</p>
 <figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;<span class="module-access"><span class="module"><span class="identifier">CheckNetIsolation</span>.</span></span>exe loopbackexempt -a -p=SID</span><br></pre></td></tr></table></figure>
 
-<p><img    class="lazyload" data-original="https://s3.ifanr.com/wp-content/uploads/2019/03/Fiddler.jpg!720" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">img</span></p>
+<p><img   class="lazyload" data-original="https://s3.ifanr.com/wp-content/uploads/2019/03/Fiddler.jpg!720" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="img"></p>
 <p>使用 Fiddler 软件的话，选择顶部菜单栏的「WinConfig」，在弹出窗口中勾选需要排除网络隔离的应用，最后点击「Save Changes」即可。</p>
 </blockquote>
 <p>转载自<a target="_blank" rel="noopener" href="https://www.ifanr.com/app/1189475">https://www.ifanr.com/app/1189475</a></p>
@@ -237,7 +237,7 @@
 
         
   <nav class="nav">
-    <a></a>
+    <a href="/2021/09/05/win10-beautify/"><i class="iconfont iconleft"></i>记录一下Windows10 的简单美化</a>
     <a href="/2021/08/27/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8pgp%E5%8A%A0%E5%AF%86/">关于pgp<i class="iconfont iconright"></i></a>
   </nav>
 

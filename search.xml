@@ -1,54 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World|开博第一文</title>
-    <url>/2021/08/22/hello-world/</url>
-    <content><![CDATA[<h3 id="终于拥有了自己的博客"><a href="#终于拥有了自己的博客" class="headerlink" title="终于拥有了自己的博客"></a>终于拥有了自己的博客</h3><p>其实我很早以前就想着搭建一个自己的博客，但是由于学业紧张，背井离乡（寄宿），我还是搭建了一个😁，只不过没写过文章，所以趁这次空闲机会，我又重新部署好了这个<a href="hexo.io">hexo</a> +<a href="izhaoo.com">zhaoo</a> 的博客。</p>
-<h3 id="为什么叫“林中小屋”？"><a href="#为什么叫“林中小屋”？" class="headerlink" title="为什么叫“林中小屋”？"></a>为什么叫“林中小屋”？</h3><p>比较喜欢森林</p>
-<p><img  src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"  ><span class="image-caption">比如这个</span></p>
-<p><img  src="https://images.unsplash.com/photo-1496060169243-453fde45943b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=744&q=80"  ><span class="image-caption">this</span></p>
+    <title>记录一下Windows10 的简单美化</title>
+    <url>/2021/09/05/win10-beautify/</url>
+    <content><![CDATA[<h1 id="记录一下Windows10-的简单美化"><a href="#记录一下Windows10-的简单美化" class="headerlink" title="记录一下Windows10 的简单美化"></a>记录一下Windows10 的简单美化</h1><p>提前说一下，这篇博客比较短，就是简单记录，美化之后目前感觉还挺好，其实是没怎么美化。</p>
+<h2 id="隐藏桌面图标"><a href="#隐藏桌面图标" class="headerlink" title="隐藏桌面图标"></a>隐藏桌面图标</h2><p>在桌面上点击鼠标右键➡查看➡显示桌面图标，把那个勾取消勾选。</p>
+<h2 id="添加dock栏"><a href="#添加dock栏" class="headerlink" title="添加dock栏"></a>添加dock栏</h2><p>这个是因为我感觉一个类似于mac的dock栏样式是很牛的样子，根本原因还是自己买不起mac,没办法，感觉品牌溢价太多。</p>
+<p>这个样式的实现是利用了软媒魔方里的一个工具，有个up主<a href="https://space.bilibili.com/82363089?from=search&seid=8387235064969091147&spm_id_from=333.337.0.0">@xiaoyuboi</a> 在介绍自己的桌面美化时提到的，我这里是利用了他提取出来的软件，可以去<a href="https://www.bilibili.com/video/BV1Bh411y7HA?spm_id_from=333.999.0.0">他的视频</a> 下方获取。</p>
+<p>下载安装之后，在设置面板里可以调节面板透明度等，之后去下载一下自己软件所对应的图标，应该是png其他好像也可以，我没尝试。</p>
+<p>可以去<a href="https://www.iconfont.cn/">阿里巴巴矢量图标库</a> 或者是<a href="https://icon-icons.com/">icon-icons</a> 下载。</p>
+<p>在软媒魔方里的图标管理里面可以添加图标，完成之后就像这样：</p>
+<p><img  src="https://upload.cc/i1/2021/09/04/mKr8qs.png"  ><span class="image-caption">在这里</span></p>
+<p>over！</p>
+<hr>
+<p>真的是秋雨连绵，一直下个不停，偶尔出现一两天的晴天，随即又是雨、雨、雨、、、、</p>
+<p>让我突然想起那个语文卷子中的文章《秋雨》</p>
 <blockquote>
-<p>山光悦鸟性，潭影空人心</p>
+<p>转眼间，风雨交加，雨点敲打车窗的声音越来越激烈了。打在窗玻璃上的雨点，一滴滴地顺着窗玻璃斜斜地流落下来。有的雨点从车窗的一端流到另一端。流着流着，短暂停住，接着又流动起来。流流停停，停停流流，显得很有节奏。一滴滴水点，后面的赶超前面的，上面的低低地落到下面，画出一道道交错的线。          —-川端康成</p>
 </blockquote>
-<p>亲近大自然让我感到十分舒畅，应该是放松的感觉吧？</p>
-<h3 id="今后可能会写的内容："><a href="#今后可能会写的内容：" class="headerlink" title="今后可能会写的内容："></a>今后可能会写的内容：</h3><ul>
-<li>学习，也算是做个笔记</li>
-<li>生活，一些有趣的事</li>
-<li>技术，本人喜欢瞎折腾，所以记录一下还是有必要的</li>
-<li>随笔，就是想到啥就随便写了，就想找个地儿说说想法。</li>
-</ul>
-<p>。。。。。。</p>
-<p>本人Linux也不太懂，网站运维什么的更是小白一只，再加上身为学生，甚是贫穷，所以还没有独立在服务器上搭建的打算，慢慢来吧~</p>
-<p>还有就是希望自己可以坚持写下去。</p>
-<p>还有，以后就会知道了。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一台服务器：玩客云折腾记</title>
-    <url>/2021/08/24/my-server-wky/</url>
-    <content><![CDATA[<h2 id="事情的起因"><a href="#事情的起因" class="headerlink" title="事情的起因"></a>事情的起因</h2><p>前段时间在看b站的时候，看到有一款机子，名曰：玩客云，可是评论区里均称之为矿渣。搜索一番后才了解，原来是一台下载机，自带迅雷会员，之前可以利用家里的闲置带宽赚钱，简单说就是挖矿，通上电，连上网躺家里就能赚钱，这谁不喜欢，于是乎大量买入，后来发了矿难，这些原来炒到好几千的机子闲鱼上几十块就可以买到，关键是玩法多，看了恩山、张大妈的文章，我也痛下血本买了一台。</p>
-<p>我买的是<em>绝育老母鸡</em> （这名字绝了🐔），也就是关闭了挖矿功能的，如果不绝育的话就会像之前说的那样，利用你家的带宽当cdn,这谁愿意啊。（后来又后悔了，既然我要刷机还管他绝育不绝育，白白多花十几块。）</p>
-<h2 id="first-step：刷机"><a href="#first-step：刷机" class="headerlink" title="first step：刷机"></a>first step：刷机</h2><p>刷机我就不赘述了，<a href="https://www.bilibili.com/video/BV1Va411A7MJ?from=search&seid=5975901192575404346">参考视频</a>   <a href="https://yangwenqing.com/archives/1604/">刷机固件下载</a></p>
-<p>只不过，这一步可把我给搞坏了，为了节省时间，立即投入刷机，我想着自己diy一个双公头线也未尝不可，毕竟我的动手能力这么强</p>
-<p>ヾ(•ω•`)o</p>
-<p>就在我屏住呼吸，小心翼翼地把那根刚刚焊好，还热乎的线插入笔记本的那一刻，</p>
-<p>biu~    黑屏了！</p>
-<p>重启一下</p>
-<p>didididi(其实我也没分清到底是比比还是滴滴的响)</p>
-<p>黢黑的屏幕像无底的深渊，比比的异响好似轻蔑地嘲笑</p>
-<p>我**又翻车了，</p>
-<p>问题不大，重装系统什么的难不倒我。</p>
-<p>嗯—— o(<em>￣▽￣</em>)o  。。。。。？</p>
-<p>坏了，usb口不识别我U盘了，这下终于没辙了。最后发现是硬盘crash了，80块大洋换了个二手机械盘，欸嘿，又好了！</p>
-<p>只不过主板应该是真烧了，usb口真不能用了，只能用原来那个接无线鼠标的口偶尔凑合一下。</p>
-<p>所以说: <strong>diy有风险，血的教训，</strong>┭┮﹏┭┮</p>
-<h2 id="second-step-："><a href="#second-step-：" class="headerlink" title="second step ："></a>second step ：</h2><p>刷了机之后，插上电源与网线，如果刷了armbian5.67的话灯是不会亮的。</p>
-<p>在路由器那里看看能不能找到那个有线设备，记录一下IP。打开ssh工具，比如putty，连接🆗，虽然是英文，但是很简单，理解上应该问题不大。</p>
-<p><img  src="wky.jpg"  ><span class="image-caption">just like this</span> </p>
-<p>欧啦。</p>
+<p>其实就是题目让我想起的，内容早就忘记了。</p>
 ]]></content>
       <tags>
-        <tag>技术</tag>
+        <tag>win10</tag>
+        <tag>美化</tag>
       </tags>
   </entry>
   <entry>
@@ -61,12 +35,12 @@
 <h3 id="其他方案"><a href="#其他方案" class="headerlink" title="其他方案"></a>其他方案</h3><p>鉴于这几种方案我并没有尝试，所以我不能确定他们的可用性。</p>
 <blockquote>
 <p>利用 Windows 10 系统自带的 CheckNetIsolation.exe 工具或者第三方软件 Fiddler 可以为 UWP 应用解除网络隔离。</p>
-<p><img  src="https://s3.ifanr.com/wp-content/uploads/2019/03/SID_name.jpg!720"  ><span class="image-caption">img</span></p>
+<p><img src="https://s3.ifanr.com/wp-content/uploads/2019/03/SID_name.jpg!720" alt="img"></p>
 <p>打开系统的注册表编辑器，定位路径 <code>HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings</code>，注册表编辑器左侧列出了已安装的应用 SID 值命名的文件夹，右边 DisplayName 项就是应用名称，左边记录目标应用的 SID 值。</p>
 <p>打开 CMD 命令面板，输入如下命令，SID 就是前面获得的 SID 值，命令行窗口提示「完成」，表示已经解除了目标应用的网络隔离。</p>
 <figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">&gt;<span class="module-access"><span class="module"><span class="identifier">CheckNetIsolation</span>.</span></span>exe loopbackexempt -a -p=SID</span><br></pre></td></tr></table></figure>
 
-<p><img  src="https://s3.ifanr.com/wp-content/uploads/2019/03/Fiddler.jpg!720"  ><span class="image-caption">img</span></p>
+<p><img src="https://s3.ifanr.com/wp-content/uploads/2019/03/Fiddler.jpg!720" alt="img"></p>
 <p>使用 Fiddler 软件的话，选择顶部菜单栏的「WinConfig」，在弹出窗口中勾选需要排除网络隔离的应用，最后点击「Save Changes」即可。</p>
 </blockquote>
 <p>转载自<a href="https://www.ifanr.com/app/1189475">https://www.ifanr.com/app/1189475</a></p>
@@ -99,7 +73,7 @@
 <p>那么，pgp是怎么工作的呢？对于加密部分而言，pgp使用到了非对称加密技术，非对称加密（<strong>Asymmetric cryptography</strong>）又叫公开密钥加密，简单地讲就是一个人拥有**一对 ** 密钥，一个叫公钥（public key）,另一个叫私钥（private key）。公钥是可以散布出去的，而私钥则必须被你自己好好保管，要是泄漏的话，嘿嘿，你和隔壁老王的聊天记录就全曝光了，哈！</p>
 <p>整个加密过程是这样的：小红想和小蓝聊天，于是，小蓝把自己公钥给了小红，小黑也看见了，但是没关系，小红把自己的悄悄话用小蓝的公钥加密(encrypt)之后得到的密文又发给了小蓝，小黑又看见了，but nobody cares.小蓝拿到密文之后，用自己的私钥解密（decrypt）之后就看见了小红给他的话。小黑虽然有公钥与密文，但他也只能干瞪眼，只要没有私钥，除非他家有量子计算机，不然就是解不了密。</p>
 <p>那如果虽然小黑看不到，但是他把密文给改了怎么办？别担心，pgp还有一项功能就是签名（signature），简单地说（啊，打字好累）就是把我发给你的文件上附加一个签名文件，一旦文件被篡改，那么，之后验证时得到的数据就会和签名文件的数据不符，说明文件被篡改了。</p>
-<p><img  src="sign.png"  ><span class="image-caption">如图所示|Wikipedia</span></p>
+<p><img src="sign.png" alt="如图所示|Wikipedia"></p>
 <p>各平台pgp软件：</p>
 <ul>
 <li>Windows：<a href="https://www.gpg4win.org/">Gpg4win</a></li>
@@ -122,5 +96,56 @@
         <tag>pgp</tag>
         <tag>加密</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>第一台服务器：玩客云折腾记</title>
+    <url>/2021/08/24/my-server-wky/</url>
+    <content><![CDATA[<h2 id="事情的起因"><a href="#事情的起因" class="headerlink" title="事情的起因"></a>事情的起因</h2><p>前段时间在看b站的时候，看到有一款机子，名曰：玩客云，可是评论区里均称之为矿渣。搜索一番后才了解，原来是一台下载机，自带迅雷会员，之前可以利用家里的闲置带宽赚钱，简单说就是挖矿，通上电，连上网躺家里就能赚钱，这谁不喜欢，于是乎大量买入，后来发了矿难，这些原来炒到好几千的机子闲鱼上几十块就可以买到，关键是玩法多，看了恩山、张大妈的文章，我也痛下血本买了一台。</p>
+<p>我买的是<em>绝育老母鸡</em> （这名字绝了🐔），也就是关闭了挖矿功能的，如果不绝育的话就会像之前说的那样，利用你家的带宽当cdn,这谁愿意啊。（后来又后悔了，既然我要刷机还管他绝育不绝育，白白多花十几块。）</p>
+<h2 id="first-step：刷机"><a href="#first-step：刷机" class="headerlink" title="first step：刷机"></a>first step：刷机</h2><p>刷机我就不赘述了，<a href="https://www.bilibili.com/video/BV1Va411A7MJ?from=search&seid=5975901192575404346">参考视频</a>   <a href="https://yangwenqing.com/archives/1604/">刷机固件下载</a></p>
+<p>只不过，这一步可把我给搞坏了，为了节省时间，立即投入刷机，我想着自己diy一个双公头线也未尝不可，毕竟我的动手能力这么强</p>
+<p>ヾ(•ω•`)o</p>
+<p>就在我屏住呼吸，小心翼翼地把那根刚刚焊好，还热乎的线插入笔记本的那一刻，</p>
+<p>biu~    黑屏了！</p>
+<p>重启一下</p>
+<p>didididi(其实我也没分清到底是比比还是滴滴的响)</p>
+<p>黢黑的屏幕像无底的深渊，比比的异响好似轻蔑地嘲笑</p>
+<p>我**又翻车了，</p>
+<p>问题不大，重装系统什么的难不倒我。</p>
+<p>嗯—— o(<em>￣▽￣</em>)o  。。。。。？</p>
+<p>坏了，usb口不识别我U盘了，这下终于没辙了。最后发现是硬盘crash了，80块大洋换了个二手机械盘，欸嘿，又好了！</p>
+<p>只不过主板应该是真烧了，usb口真不能用了，只能用原来那个接无线鼠标的口偶尔凑合一下。</p>
+<p>所以说: <strong>diy有风险，血的教训，</strong>┭┮﹏┭┮</p>
+<h2 id="second-step-："><a href="#second-step-：" class="headerlink" title="second step ："></a>second step ：</h2><p>刷了机之后，插上电源与网线，如果刷了armbian5.67的话灯是不会亮的。</p>
+<p>在路由器那里看看能不能找到那个有线设备，记录一下IP。打开ssh工具，比如putty，连接🆗，虽然是英文，但是很简单，理解上应该问题不大。</p>
+<p><img src="wky.jpg" alt="just like this"> </p>
+<p>欧啦。</p>
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World|开博第一文</title>
+    <url>/2021/08/22/hello-world/</url>
+    <content><![CDATA[<h3 id="终于拥有了自己的博客"><a href="#终于拥有了自己的博客" class="headerlink" title="终于拥有了自己的博客"></a>终于拥有了自己的博客</h3><p>其实我很早以前就想着搭建一个自己的博客，但是由于学业紧张，背井离乡（寄宿），我还是搭建了一个😁，只不过没写过文章，所以趁这次空闲机会，我又重新部署好了这个<a href="hexo.io">hexo</a> +<a href="izhaoo.com">zhaoo</a> 的博客。</p>
+<h3 id="为什么叫“林中小屋”？"><a href="#为什么叫“林中小屋”？" class="headerlink" title="为什么叫“林中小屋”？"></a>为什么叫“林中小屋”？</h3><p>比较喜欢森林</p>
+<p><img src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="比如这个"></p>
+<p><img src="https://images.unsplash.com/photo-1496060169243-453fde45943b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=744&q=80" alt="this"></p>
+<blockquote>
+<p>山光悦鸟性，潭影空人心</p>
+</blockquote>
+<p>亲近大自然让我感到十分舒畅，应该是放松的感觉吧？</p>
+<h3 id="今后可能会写的内容："><a href="#今后可能会写的内容：" class="headerlink" title="今后可能会写的内容："></a>今后可能会写的内容：</h3><ul>
+<li>学习，也算是做个笔记</li>
+<li>生活，一些有趣的事</li>
+<li>技术，本人喜欢瞎折腾，所以记录一下还是有必要的</li>
+<li>随笔，就是想到啥就随便写了，就想找个地儿说说想法。</li>
+</ul>
+<p>。。。。。。</p>
+<p>本人Linux也不太懂，网站运维什么的更是小白一只，再加上身为学生，甚是贫穷，所以还没有独立在服务器上搭建的打算，慢慢来吧~</p>
+<p>还有就是希望自己可以坚持写下去。</p>
+<p>还有，以后就会知道了。</p>
+]]></content>
   </entry>
 </search>

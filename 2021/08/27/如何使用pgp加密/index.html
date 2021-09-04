@@ -92,7 +92,7 @@
           default: '姑苏城外寒山寺，夜半钟声到客船',
           typing: true,
           api: '',
-          data_contents: '["data","content"]'
+          data_contents: ''
         },
       },
       qrcode: {
@@ -189,7 +189,7 @@
     <div class="head-info">
       <span class="post-info-item"><i class="iconfont iconcalendar"></i>八月 26, 2021</span>
       
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1279</span>
+      <span class="post-info-item"><i class="iconfont iconfont-size"></i>1265</span>
     </div>
   </div>
 </section>
@@ -206,7 +206,7 @@
 <p>那么，pgp是怎么工作的呢？对于加密部分而言，pgp使用到了非对称加密技术，非对称加密（<strong>Asymmetric cryptography</strong>）又叫公开密钥加密，简单地讲就是一个人拥有**一对 ** 密钥，一个叫公钥（public key）,另一个叫私钥（private key）。公钥是可以散布出去的，而私钥则必须被你自己好好保管，要是泄漏的话，嘿嘿，你和隔壁老王的聊天记录就全曝光了，哈！</p>
 <p>整个加密过程是这样的：小红想和小蓝聊天，于是，小蓝把自己公钥给了小红，小黑也看见了，但是没关系，小红把自己的悄悄话用小蓝的公钥加密(encrypt)之后得到的密文又发给了小蓝，小黑又看见了，but nobody cares.小蓝拿到密文之后，用自己的私钥解密（decrypt）之后就看见了小红给他的话。小黑虽然有公钥与密文，但他也只能干瞪眼，只要没有私钥，除非他家有量子计算机，不然就是解不了密。</p>
 <p>那如果虽然小黑看不到，但是他把密文给改了怎么办？别担心，pgp还有一项功能就是签名（signature），简单地说（啊，打字好累）就是把我发给你的文件上附加一个签名文件，一旦文件被篡改，那么，之后验证时得到的数据就会和签名文件的数据不符，说明文件被篡改了。</p>
-<p><img    class="lazyload" data-original="sign.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="   ><span class="image-caption">如图所示|Wikipedia</span></p>
+<p><img   class="lazyload" data-original="sign.png" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="如图所示|Wikipedia"></p>
 <p>各平台pgp软件：</p>
 <ul>
 <li>Windows：<a target="_blank" rel="noopener" href="https://www.gpg4win.org/">Gpg4win</a></li>
