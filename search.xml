@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>how-to-use-google-in-china</title>
+    <url>/2021/11/03/how-to-use-google-in-china/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>谈谈我的密码管理策略</title>
+    <url>/2021/10/01/how-do-i-manage-my-passwords/</url>
+    <content><![CDATA[<h1 id="谈谈我的密码管理"><a href="#谈谈我的密码管理" class="headerlink" title="谈谈我的密码管理"></a>谈谈我的密码管理</h1><p>首先，祝大家假期快乐，毕竟是国庆节假期，希望大家都能有机会放松一下，出去走走，亲近大自然，秋天还是很美的，一天到晚坐在电脑旁着实对人不友好。</p>
+<p>合上电脑，窗外有更广大的世界。</p>
+<p>最近这一段时间更新博客不是很及时，确实有懒惰的因素在里面，不过快开学了，也比较忙，这一段时间里折腾了一下自己的密码管理方法，起因是对于目前的管理方法都不是很满意，下面我就记录一下。</p>
+<h2 id="为什么不选择已有的密码管理服务"><a href="#为什么不选择已有的密码管理服务" class="headerlink" title="为什么不选择已有的密码管理服务"></a>为什么不选择已有的密码管理服务</h2><p>其实，我也在使用其他的密码管理服务，比如chrome自带的密码管理器，但是对于重要的密码之类的东西，放在网上让我不太放心。因为，因为一旦要是服务商出来了什么漏子，那用户就全玩完。但是捏，密码也是分三六九等的，有些密码根本就不怎么重要，所以，对于那些不重要的密码，直接用现成的大家评价还不错的密码管理服务就已经够用了。但是，对于一些重要的密码，我还是觉得本地化一些比较妥当，比如记住😁😁，这真的是一个好办法，在给每个大脑装上芯片之前，这个方法还是很安全的，但是密码一旦多了，这个方法就比较痛苦了，所以，一个安全的密码管理方法还是很有必要的。</p>
+<h2 id="我的密码管理方法"><a href="#我的密码管理方法" class="headerlink" title="我的密码管理方法"></a>我的密码管理方法</h2><p>我的密码管理方法目前是<em>bt sync</em> +<em>keepass</em> ,简单说一下思路就是keepass负责加解密，bt sync负责同步于各个设备。</p>
+<h3 id="How-to-make-it"><a href="#How-to-make-it" class="headerlink" title="How to make it?"></a><strong>How to make it?</strong></h3><p>1.首先就是下载bt sync，其实人家真名叫<a href="https://www.resilio.com/">Resilio Sync</a> ,图个方便就叫他bt sync ，然后在电脑上建立一个共享文件夹，用来存放密码库，将他与你的手机或者其他什么设备共享，设置权限为读写，如果你需要在手机上增添密码的话。至此，bt sync这一块就搞得差不多了。ps:千万不要将这个文件夹共享给其他人，这样很危险！！！</p>
+<p>2.然后就是密码库的问题了，我使用的是<a href="https://keepass.info/">Keepass</a> 使用keepass 建立一个密码库，位置就放在刚刚创建的共享文件夹里，这样一来，他就会和其他共享的设备同步了。手机端也有好多软件可以使用keepass,自己选一个喜欢的去吧。手机端选择密码库，密码库就是位于共享文件夹的那个，select it，than ,ok</p>
+<hr>
+<p>1.其实我还有一个ideal，就是用自己的pgp 密钥加密了之后存放在自己的服务器，或者是云盘里，服务器上存放的是加密的密码库，看见也没用，自己使用pgp私钥解密，还是很安全的。但是缺点就是服务器。还有就是password store对我的手机不太管用，好像有bug，所以就没折腾成功，有兴趣的朋友可以试试，成了的话给我说一声。pgp就用手机上的openkeychain.。</p>
+<p>2.<strong>各个密码不要用相同的！！！</strong> </p>
+<p>​    <strong>NEVER USE THE SAME PASSWORD!!!</strong> </p>
+<p>3.<strong>密码不要太简单！！！</strong></p>
+<p><strong>NEVER USE TOO SIMPLE PASSWORD!!!</strong></p>
+<hr>
+<p><em>reference</em></p>
+<blockquote>
+<p><a href="https://program-think.blogspot.com/2015/01/BitTorrent-Sync.html">扫盲 BTSync（Resilio Sync）——不仅是同步利器，而且是【分布式】网盘</a></p>
+<p><a href="https://milosophical.me/blog/2018/password-store-1.html#">Password databases: Installing password-store on Android</a></p>
+<p><a href="https://pvera.net/posts/secure-passwords-pass-pgp/">Manage and secure your passwords across devices using Pass and GPG</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>计算机</category>
+      </categories>
+      <tags>
+        <tag>加密</tag>
+        <tag>密码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>记录一下Windows10 的简单美化</title>
     <url>/2021/09/05/win10-beautify/</url>
     <content><![CDATA[<h1 id="记录一下Windows10-的简单美化"><a href="#记录一下Windows10-的简单美化" class="headerlink" title="记录一下Windows10 的简单美化"></a>记录一下Windows10 的简单美化</h1><p>提前说一下，这篇博客比较短，就是简单记录，美化之后目前感觉还挺好，其实是没怎么美化。</p>
